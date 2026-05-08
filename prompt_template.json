@@ -60,7 +60,8 @@
   "kintone": {
     "kintone関数": "kintoneの関数を教えてください。使用できる関数は次の通りで、それ以外の関数は使ってはいけません。\n\n## 使用できる関数\n・SUM\n・YEN\n・DATE_FORMAT\n・IF\n・AND\n・OR\n・NOT\n・ROUND\n・ROUNDDOWN\n・ROUNDUP\n・CONTAINS\n\n## 注意\n・kintone関数には文字列を数値に変換する関数はありません。\n　文字列を数値に変換する必要がある場合は、**計算フィールド**に一旦出力する必要があります。\n\n## やりたいこと\n",
     "kintone javascript": "kintoneカスタマイズのためのjavascriptを書いてください。\n\n## コードスタイル\n・アロー関数が使える箇所はアロー関数を使用する\n・変数宣言はconstまたはletのみとする（varは禁止）\n・非同期処理は async/await のみで記述（then / catch / Promiseオブジェクト生成は禁止）\n・グローバルスコープを汚染しない（即時関数 or イベントスコープ内に閉じる）\n・可読性を重視し適切なコメントをつける\n・早期returnを活用しネストを深くしない\n\n## kintone特有の処理\n・レコード情報の取得/更新は、kintone.app.record.get() / set()を使用する\n・API通信は、kintone.api()を使用する\n\n## やりたいこと\n\n\n",
-    "garoon javascript": "cybozu garoonカスタマイズのためのjavascriptを書いてください。\n\n## コードスタイル\n・変数宣言はconstまたはletのみとする（varは禁止）\n・非同期処理は async/await のみで記述（then / catch / Promiseオブジェクト生成は禁止）\n・グローバルスコープを汚染しない（即時関数 or イベントスコープ内に閉じる）\n・可読性を重視し適切なコメントをつける\n・早期returnを活用しネストを深くしない\n\n## やりたいこと\n\n\n"
+    "garoon javascript": "cybozu garoonカスタマイズのためのjavascriptを書いてください。\n\n## コードスタイル\n・変数宣言はconstまたはletのみとする（varは禁止）\n・非同期処理は async/await のみで記述（then / catch / Promiseオブジェクト生成は禁止）\n・グローバルスコープを汚染しない（即時関数 or イベントスコープ内に閉じる）\n・可読性を重視し適切なコメントをつける\n・早期returnを活用しネストを深くしない\n\n## やりたいこと\n\n\n",
+    "FormBridge javascript": "FormBridgeカスタマイズのためのjavascriptを書いてください。\n\n## コードスタイル\n・アロー関数が使える箇所はアロー関数を使用する\n・変数宣言はconstまたはletのみとする（varは禁止）\n・非同期処理は async/await のみで記述（then / catch / Promiseオブジェクト生成は禁止）\n・グローバルスコープを汚染しない（即時関数 or イベントスコープ内に閉じる）\n・可読性を重視し適切なコメントをつける\n・早期returnを活用しネストを深くしない\n\n## FormBridge特有の処理\n・レコード情報の取得/更新は、context.getFieldValue() / context.setFieldValue()を使用する\n・2025年2月にJavaScriptが刷新されたので、旧バージョンのJavaScriptは使用しないようにすること\n　（formBridgeではなく、fbとなっていたら旧バージョン）\n\n## やりたいこと\n\n\n"
   },
   "プログラム": {
     "VBA（必要最小限）": "VBAのコードを書いてください\n\n## コードスタイル\n・Excel VBA\n・可読性を重視し適切なコメントをつける\n\n## やりたいこと\n・",
