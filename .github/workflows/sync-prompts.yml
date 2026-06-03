@@ -2,8 +2,8 @@ name: Sync Prompt Templates
 
 on:
   schedule:
-    # 毎日 AM9:00 JST (= AM0:00 UTC) に実行
-    - cron: '0 0 * * *'
+    # 毎日 AM5:00 JST (= 前日 PM8:00 UTC)
+    - cron: '0 20 * * *'
   workflow_dispatch:
     # 手動実行も可能
 
